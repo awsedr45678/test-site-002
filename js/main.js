@@ -54,4 +54,9 @@ $(function(){
   });
 
 
-
+$(function(){
+    $('.header').hide().fadeIn(1000);
+    $('.swiper__area').hide().fadeIn(3000);
+    $('.about').hide().fadeIn(5000);
+    $('.activities').hide().fadeIn(8000);
+});

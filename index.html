@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="jp">
+  <head>
+    <!--基本設定-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>X Company｜TOP</title>
+    <meta name="description" content="ここにメタディスクリプションが入ります。" />
+    <link rel="canonical" href="正規化するURLをここに記載" />
+    <!--基本設定 END-->
+    <!--OGP設定-->
+    <meta property="og:url" content="ここにサイトのURLを記入" />
+    <meta property="og:title" content="X Company｜TOPe" />
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="これはテストサイトです。これはテストサイトです。" />
+    <meta property="og:image" content="./img/activities-1.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="ここに@Twitterユーザー名を入力" />
+    <meta property="og:site_name" content="X Company｜TOP" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta property="fb:app_id" content="ここにappIDを入力" />
+    <!--OGP設定 END-->
+    <!--ファビコン設定-->
+    <link rel="icon" href="画像パスを入力" sizes="16x16" type="image/png" /> 
+    <link rel="icon" href="画像パスを入力" sizes="32x32" type="image/png" />  
+    <link rel="icon" href="画像パスを入力" sizes="48x48" type="image/png" /> 
+    <link rel="icon" href="画像パスを入力" sizes="62x62" type="image/png" />
+    <!--ファビコン設定 END-->
+    <!--スマホアイコンの設定-->
+    <link rel="apple-touch-icon-precomposed" href="画像パスを入力。150pxの正方形推奨" />
+    <!--スマホアイコンの設定 END-->
+    <!--CSS等読み込み-->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./scss/style.css">
+    <link rel="stylesheet" href="./css/swiper.css">
+    <!--CSS等読み込み END-->
+    <!--その他読み込み-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">
+    <!--その他読み込み END-->
+  </head>
+
+<body>
+  
+  <!-- ローディング部分 -->
+  <div class="loading">
+    <img src="./img/loading.gif" alt="ローディング画像">
+  </div>
+  <!-- ローディング部分 END-->
+
+  <!-- ヘッダー部分 -->
+  <header class="header">
+    <div class="header__inner">
+      <!-- PCヘッダー部分 -->
+      <nav class="header__nav">
+        <a class="header__nav--logo" href="#"><h1>X Company</h1></a>
+        <ul class="header__nav--list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#activities">Activities</a></li>
+          <li><a href="#flow">flow</a></li>
+          <li><a href="#member">Member</a></li>
+          <li><a href="#qa">Q&A</a></li>
+          <li><a href="#contact">Contact</a></li> 
+        </ul>
+      </nav>
+      <!-- PCヘッダー部分 END -->
+      <!-- スマホヘッダー部分 -->
+      <nav class="header__nav--sp">
+        <div id="nav-drawer">
+          <a id="nav-open" class="nav-unshown" href="#nav-content"><span></span></a>
+          <div id="nav-content">
+            <ul class="header__nav--list--sp">
+              <li><a href="#nav-close" class="close-btn"></a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#activities">Activities</a></li>
+              <li><a href="#flow">flow</a></li>
+              <li><a href="#member">Member</a></li>
+              <li><a href="#qa">Q&A</a></li>
+              <li><a href="#contact">Contact</a></li> 
+            </ul>
+          </div>
+        </div>
+        <a class="header__nav--logo--sp" href="#"><h1>X Company</h1></a>
+      </nav>
+      <a href="#nav-close" id="nav-close" class="nav-unshown"></a>
+      <!-- スマホヘッダー部分 END -->
+    </div>
+  </header>
+  <!-- ヘッダー部分 END -->
+  
+  <!-- mv部分 -->
+  <section class="swiper__area">
+    <img class="swiper__area--backgroundimg" src="./img/bg-shape.png" alt="背景画像">
+    <!-- スワイパーインナー -->
+    <div class="swiper-inner">
+      <div class="swiper-container top-container">
+        <div class="swiper-wrapper">
+          <!-- スワイパー1 -->
+          <div class="swiper-slide">
+            <div class="swiper-slide-text">
+              <h2>We value customers more than anyone.</h2>
+              <p>We’re a creative digital marketing company that helps you bring better results.</p>
+            </div>
+            <figure class="swiper-slide-img"><img src="./img/top1.png" alt="Swiper01"></figure>
+          </div>
+          <!-- スワイパー1 END-->
+          <!-- スワイパー2 -->
+          <div class="swiper-slide">
+            <div class="swiper-slide-text">
+              <h2>We’re a creative marketing team.</h2>
+              <p>We’re a creative digital marketing company that helps you bring better results.</p>
+            </div>
+            <figure class="swiper-slide-img"><img src="./img/top2.png" alt="Swiper02"></figure>
+          </div>
+          <!-- スワイパー2 END-->
+          <!-- スワイパー3 -->
+          <div class="swiper-slide">
+            <div class="swiper-slide-text">
+              <h2>Enjoy your Website and make it better!</h2>
+              <p>Enjoy a combination of strategy, results, and service, that create the best experience possible.</p>
+            </div>
+            <figure class="swiper-slide-img"><img src="./img/top3.png" alt="Swiper03"></figure>
+          </div>
+          <!-- スワイパー3 END-->
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    <!-- スワイパーインナー END-->
+  </section>
+  <!-- mv部分 END -->
+
+  <!-- about部分 -->
+  <section id="about" class="about">
+    <div class="about__inner">
+      <h2>About</h2>
+      <div class="about__box">
+        <!-- ボックス1-->
+        <div class="about__box--part">
+          <img src="./img/about1.png" alt="About-1">
+          <p>We will provide you the best solution for promotion that drives results.</p>
+        </div>
+        <!-- ボックス1 END-->
+        <!-- ボックス2-->
+        <div class="about__box--part">
+          <img src="./img/about2.png" alt="About-2">
+          <p>Our SEO consulting helps your business grow online leads, calls, and revenue.</p>
+        </div>
+        <!-- ボックス2 END-->
+        <!-- ボックス3-->
+        <div class="about__box--part">
+          <img src="./img/about3.png" alt="About-3">
+          <p>We always deliver something valuable and meaningful for clients and society.</p>
+        </div>
+        <!-- ボックス3 END-->
+      </div>
+      <div class="about__text">
+        <p>We always deliver something valuable<br>for clients and society.</p>
+      </div>
+      <!-- ロゴエリア-->
+      <div class="about__logo">
+        <div class="about__logo--inner">
+          <figure class="about__logo--img"><img src="./img/logo1.png" alt="ロゴ1"></figure>
+          <figure class="about__logo--img"><img src="./img/logo2.png" alt="ロゴ2"></figure>
+          <figure class="about__logo--img"><img src="./img/logo3.png" alt="ロゴ3"></figure>
+          <figure class="about__logo--img"><img src="./img/logo4.png" alt="ロゴ4"></figure>
+          <figure class="about__logo--img"><img src="./img/logo5.png" alt="ロゴ5"></figure>
+        </div>
+      </div>
+      <!-- ロゴエリア END-->
+    </div>
+  </section>
+  <!-- about部分 END-->
+
+  <!-- アクティビティ部分 -->
+  <section id="activities" class="activities">
+    <div class="activities__inner">
+    <h2>Activities</h2>
+    <div class="tab-panel">
+      <ul class="tab-group">
+          <li class="tab tab-A is-active tab-A-border">Making</li>
+          <li class="tab tab-B tab-B-border">Consultant</li>
+          <li class="tab tab-C tab-C-border">Business</li>
+      </ul>
+      <div class="panel-group">
+      <!-- タブA -->
+        <div class="panel tab-A is-show">
+          <div class="activities__card">
+            <div class="activities__card--left">
+              <h3>Making a plan together that drives result.</h3>
+              <p>Get the best tools, technologies, and results you’ve ever had in your business.</p>
+              <a href="#">LEARN MORE</a>
+            </div>
+            <div class="activities__card--right">
+              <img src="./img/activities-1.png" alt="アクティビティ1">
+            </div>
+          </div>
+        </div>
+      <!-- タブA END-->
+      <!-- タブB -->
+        <div class="panel tab-B">
+          <div class="activities__card">
+          <div class="activities__card--left">
+            <h3>Professional consultant</h3>
+            <p>We provide everything that exactly fits your needs such as creating contents, making videos and taking photographs.</p>
+            <div class="activities__card--btn"><a href="#">LEARN MORE</a></div>
+          </div>
+          <div class="activities__card--right">
+            <img src="./img/activities-2.png" alt="アクティビティ2">
+          </div> 
+        </div>
+        </div>
+        <!-- タブB END -->
+        <!-- タブC -->
+        <div class="panel tab-C">
+          <div class="activities__card">
+          <div class="activities__card--left">
+            <h3>Future-Proof Your Business</h3>
+            <p>Know about the latest updates in digital marketing before any of your competitors.</p>
+            <a href="#">LEARN MORE</a>
+          </div>
+          <div class="activities__card--right">
+            <img src="./img/activities-3.png" alt="アクティビティ3">
+          </div> 
+        </div>
+        </div>
+        <!-- タブC END-->
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- アクティビティ部分 END-->
+
+  <!-- フロー部分 -->
+  <section id="flow" class="flow">
+    <!-- フロー インナー部分 -->
+    <div class="flow__inner">
+      <h2>Flow</h2>
+      <div class="flow__area">
+        <div class="flow__area--boxes">
+          <!-- フロー1 -->
+          <div class="flow__area--box">
+            <img src="./img/flow-1.png" alt="フロー1">
+            <p>Step1</p>
+            <div class="content flow__area--label"><a class="js-modal-open" href="">MORE</a></div>
+          </div>
+          <!-- フロー1 END-->
+          <p class="flow__area--triangle"></p>
+          <!-- フロー2 -->
+          <div class="flow__area--box">
+            <img src="./img/flow-2.png" alt="フロー2">
+            <p>Step2</p>
+            <div class="content flow__area--label"><a class="js-modal-open" href="">MORE</a></div>
+          </div>
+          <!-- フロー2 END-->
+          <p class="flow__area--triangle"></p>
+          <!-- フロー3 -->
+          <div class="flow__area--box">
+            <img src="./img/flow-3.png" alt="フロー3">
+            <p>Step3</p>
+            <div class="content flow__area--label"><a class="js-modal-open" href="">MORE</a></div>
+          </div>
+          <!-- フロー3 END -->
+          <p class="flow__area--triangle"></p>
+          <!-- フロー4 -->
+          <div class="flow__area--box">
+            <img src="./img/flow-4.png" alt="フロー4">
+            <p>Step4</p>
+            <div class="content flow__area--label"><a class="js-modal-open" href="">MORE</a></div>
+          </div>
+          <!-- フロー4 END -->
+        </div>
+      </div>
+    </div>
+    <!-- フロー インナー部分 END-->
+    <!--モーダルエリア-->
+    <div class="modal js-modal">
+      <div class="modal__bg js-modal-close"></div>
+      <div class="modal__content">
+        <img src="./img/flow-1.png" alt="フロー1">
+        <p class="model__content--step">Step1</p>
+        <p>Text in here.Text in here.Text in here. Text in here.Text in here.Text in here.Text in here.Text in here.Text in here.Text in here.Text in here.Text in here.</p>
+        <a class="js-modal-close js-modal-close-btn" href=""></a>
+      </div>
+    </div>
+    <!--モーダルエリア END-->
+  </section>
+  <!--フロー部分 END-->
+
+  <!-- メンバー部分 -->
+  <section id="member" class="member">
+    <div class="member__inner">
+      <h2>Member</h2>
+      <!-- スワイパー部分 -->
+      <div class="swiper-container member-container">
+        <div class="swiper-wrapper">
+          <!-- メンバー1 -->
+          <div class="swiper-slide member-slide">
+            <div class="div-swiper-slide-card">
+              <img src="./img/m-1.png" alt="メンバー1">
+              <p class="swiper-job">CEO</p>
+              <p class="swiper-name">Alex Khan</p>
+            </div>
+          </div>
+          <!-- メンバー1 END-->
+          <!-- メンバー2 -->
+          <div class="swiper-slide member-slide">
+            <div class="div-swiper-slide-card">
+              <img src="./img/m-2.png" alt="メンバー1">
+              <p class="swiper-job">CDO</p>
+              <p class="swiper-name">Lori J. Tucker</p>
+            </div>
+          </div>
+          <!-- メンバー2 END-->
+          <!-- メンバー3 -->
+          <div class="swiper-slide member-slide">
+            <div class="div-swiper-slide-card">
+              <img src="./img/m-3.png" alt="メンバー1">
+              <p class="swiper-job">CTO</p>
+              <p class="swiper-name">John Doe</p>
+            </div>
+          </div>
+          <!-- メンバー3 END-->
+        </div>
+        <!-- ページネーション -->
+        <div class="swiper-pagination"></div>
+        <!-- ページネーション END-->
+      </div>
+      <!-- スワイパー部分 END-->
+    </div>
+  </section>
+  <!-- メンバー部分 END-->
+
+
+  <!-- Q&A部分 -->
+  <section id="qa" class="qa">
+    <div class="qa__inner">
+      <h2>Q&A</h2>
+    <!-- アコーディオン部分 -->
+    <div class="section s_02">
+      <!-- アコーディオン1 -->
+      <div class="accordion_one">
+        <div class="accordion_header">
+          <div class="accordion_header-q">
+            <p>Q</p>
+          </div>
+          <div class="accordion_header-q-text">
+            <p>It is question.</p>
+          </div>
+        <div class="i_box"><i class="one_i"></i></div></div>
+        <div class="accordion_inner">
+          <div class="box_one">
+            <div class="box_one-a">
+              <p>A</p>
+            </div>
+            <div class="box_one-a-text">
+              <p>It is answer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- アコーディオン1 END-->
+      <!-- アコーディオン2 -->
+      <div class="accordion_one">
+        <div class="accordion_header">
+          <div class="accordion_header-q">
+            <p>Q</p>
+          </div>
+          <div class="accordion_header-q-text">
+            <p>It is question.</p>
+          </div>
+        <div class="i_box"><i class="one_i"></i></div></div>
+        <div class="accordion_inner">
+          <div class="box_one">
+            <div class="box_one-a">
+              <p>A</p>
+            </div>
+            <div class="box_one-a-text">
+              <p>It is answer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- アコーディオン2 END-->
+      <!-- アコーディオン3 -->
+      <div class="accordion_one">
+        <div class="accordion_header">
+          <div class="accordion_header-q">
+            <p>Q</p>
+          </div>
+          <div class="accordion_header-q-text">
+            <p>It is question.</p>
+          </div>
+        <div class="i_box"><i class="one_i"></i></div></div>
+        <div class="accordion_inner">
+          <div class="box_one">
+            <div class="box_one-a">
+              <p>A</p>
+            </div>
+            <div class="box_one-a-text">
+              <p>It is answer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- アコーディオン3 END-->
+    <!-- アコーディオン部分 END-->
+    </div>
+  </div>
+  </section>
+  <!-- Q&A部分 END-->
+
+  <!-- CONTACT部分 -->
+  <section id="contact" class="contact">
+    <div class="contact__inner">
+      <h2>Contact</h2>
+      <div class="contact__message">
+        <div class="contact__message--01">
+          <p>We offer you better product.</p>
+        </div>
+        <div class="contact__message--02">
+          <p>Our product will bring more customers, grow revenue<br>and future-proof your business</p>
+        </div>
+      </div>
+      <div class="contact__btn">
+        <a href="#">CONTACT</a>
+      </div>
+    </div>
+  </section>
+  <!-- CONTACT部分 END-->
+
+<!-- FOOTER部分-->
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__text">
+      <p>Copyright ©︎ iSara All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+<!-- FOOTER部分 END-->
+
+<!-- JS読み込み-->
+<script src="./js/main.js"></script>
+<script src="./js/swiper.js"></script>
+<!-- JS読み込み END-->
+
+</body>
+</html>
